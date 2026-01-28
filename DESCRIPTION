@@ -1,0 +1,35 @@
+Package: wavematch
+Type: Package
+Title: Wavelet-based peak calling with uncertainty weighting for epigenomic HTS data
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Nolan", "Hamilton",
+           email = "nolan.hamilton@unc.edu",
+           role = c("aut", "cre")),
+    person("Ayesh", "Awad",
+           email = "away@email.unc.edu",
+           role = "aut")
+    )
+Description: Tools for detecting structured enrichment patterns in genomic coverage tracks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports:
+    R6,
+    Rcpp,
+    Rsubread,
+    Rsamtools,
+    GenomicAlignments,
+    GenomicRanges,
+    IRanges,
+    utils,
+    stats,
+    parallel,
+    S4Vectors
+LinkingTo:
+    Rcpp
+SystemRequirements:
+    C++11
+    htslib
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
