@@ -6,12 +6,6 @@ Wavelet-based peak calling for ChIP-seq and CUT&RUN data.
 
 wavematch detects structured peaks in genomic signal tracks using wavelet-based template matching. The algorithm uses discrete wavelet templates (Haar, Daubechies) to identify peaks and applies statistical filtering with split-halves null sampling for robust significance testing.
 
-## Installation
-
-```r
-devtools::install_github("yourusername/StructuredPeaks")
-```
-
 ## Quick Start
 
 ### From BAM file
