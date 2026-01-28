@@ -1,0 +1,35 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Build artifacts
+*.tar.gz
+*.o
+*.so
+*.dylib
+src/*.o
+src/*.so
+src/*.dylib
+
+# Documentation
+man/*.Rd
+
+# Test output
+test_output/
+tests/test_output/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Rcpp
+src/RcppExports.cpp
+src/RcppExports.o
+R/RcppExports.R
+
+# Roxygen
+NAMESPACE
