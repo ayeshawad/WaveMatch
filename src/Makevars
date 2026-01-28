@@ -1,0 +1,5 @@
+HTSLIB_INCLUDE = /opt/homebrew/include
+HTSLIB_LIB     = /opt/homebrew/lib
+
+PKG_CPPFLAGS = -I$(HTSLIB_INCLUDE)
+  PKG_LIBS     = -L$(HTSLIB_LIB) -lhts
